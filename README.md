@@ -44,7 +44,7 @@ pod 'DisPlayers-Audio-Visualizers', '~> 0.1.1'
 
 2) This library contains four types of equalizer visualisation: (Histogram, Rolling, Wave and Circle Wave). And you should chose want kind of equalizer visualization you want and import that class into your project.
 
-Histogram initialization example:
+### Histogram initialization example:
 
 ````objective-c
     DPEqualizerSettings *settings = [DPEqualizerSettings createByType: DPHistogram];
