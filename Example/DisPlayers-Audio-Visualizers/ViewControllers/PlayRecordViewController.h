@@ -12,17 +12,8 @@
 #import "AppConstants.h"
 #import "DPConstants.h"
 
-// By default this will record a file to the application's documents directory
-// (within the application's sandbox)
-
 @interface PlayRecordViewController : UIViewController
 
 - (void) configureWithEqualizerType : (DPEqualizerType) type;
-
-/**
- A flag indicating whether we are recording or not
- */
-@property (nonatomic, assign) BOOL isRecording;
-
 
 @end
