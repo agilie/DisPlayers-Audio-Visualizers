@@ -10,6 +10,8 @@ DisPlayer is a customizable audio visualization component that works with record
 
 ![Histogram Demo](https://cloud.githubusercontent.com/assets/11332192/24103061/c3197d9c-0d86-11e7-8563-335eb32e7a75.gif)
 ![Wave Demo](https://cloud.githubusercontent.com/assets/11332192/24104119/0ad9faaa-0d8a-11e7-9889-31f5df7a8648.gif)
+![WaveStroke Demo](https://cloud.githubusercontent.com/assets/11332192/24104353/b4151578-0d8a-11e7-95f1-d267fab0ac49.gif)
+
 
 The audio visualizer can be easily embedded into an app that features:
 * audio comments to text or multimedia posts
