@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DisPlayers-Audio-Visualizers_Example' do
+  pod 'DisPlayers-Audio-Visualizers', :path => '../'
+
+  target 'DisPlayers-Audio-Visualizers_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
