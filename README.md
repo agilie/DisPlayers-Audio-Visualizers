@@ -8,7 +8,9 @@
 # DisPlayers-Audio-Visualizers
 DisPlayer is a customizable audio visualization component that works with recording and playing back audio files
 
-![Histogram Demo](https://cloud.githubusercontent.com/assets/11332192/24103061/c3197d9c-0d86-11e7-8563-335eb32e7a75.gif)
+
+![Histogram Demo](https://cloud.githubusercontent.com/assets/11332192/24103061/c3197d9c-0d86-11e7-8563-335eb32e7a75.gif= 100x200)
+
 ![Rolling Demo](https://cloud.githubusercontent.com/assets/11332192/24104739/9e551c0a-0d8b-11e7-8c08-1c3663db1065.gif)
 ![Wave Demo](https://cloud.githubusercontent.com/assets/11332192/24104119/0ad9faaa-0d8a-11e7-9889-31f5df7a8648.gif)
 ![WaveStroke Demo](https://cloud.githubusercontent.com/assets/11332192/24104353/b4151578-0d8a-11e7-95f1-d267fab0ac49.gif)
