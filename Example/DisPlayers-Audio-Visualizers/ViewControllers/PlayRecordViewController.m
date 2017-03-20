@@ -12,9 +12,9 @@
 #import <QuartzCore/CALayer.h>
 
 //Custom Views
-#import "DPRollingEqualizerView.h"
 #import "DPMainEqualizerView.h"
 #import "DPHistogramEqualizerView.h"
+#import "DPRollingEqualizerView.h"
 #import "DPWaveEqualizerView.h"
 #import "DPCircleWaveEqualizer.h"
 #import "SettingsMenuView.h"
@@ -62,7 +62,7 @@
 
 - (void) p_addEqualizerView {
     DPEqualizerSettings *settings = [DPEqualizerSettings createByType: self.currentType];
-    CGRect equalizerViewRect = CGRectMake(0, 64, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds) - 250.f);;
+    CGRect equalizerViewRect = CGRectMake(0, 64, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds) - 250.f);
     switch (self.currentType) {
         case DPHistogram:
         {
@@ -102,9 +102,9 @@
 
 - (void) p_startPlayingAudioFile {
     if (!self.player) {
-        NSString *backgroundMusicPath = [[NSBundle mainBundle] pathForResource:@"audio2" ofType:@"mp3"];
+        NSString *audioFilePath = [[NSBundle mainBundle] pathForResource:@"audio2" ofType:@"mp3"];
 
-        EZAudioFile *audioFile = [[EZAudioFile alloc] initWithURL:[[NSURL alloc] initWithString: backgroundMusicPath]];
+        EZAudioFile *audioFile = [[EZAudioFile alloc] initWithURL:[[NSURL alloc] initWithString: audioFilePath]];
         
         self.player = [[EZAudioPlayer alloc] initWithAudioFile:audioFile];
         
@@ -151,21 +151,12 @@
     });
 }
 
-
-#pragma mark - AVAudioPlayerDelegate
 /*
  Occurs when the audio player instance completes playback
  */
 - (void)audioPlayer:(EZAudioPlayer *)audioPlayer
 reachedEndOfAudioFile:(EZAudioFile *)audioFile {
-    NSLog(@"END OF FILE");
-}
-
-
-- (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player
-                       successfully:(BOOL)flag {
     [self p_removeAudioPlayer];
-    NSLog(@"END OF FILE 2");
 }
 
 #pragma mark - Navigation Actions
