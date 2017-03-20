@@ -14,8 +14,7 @@
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* DPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* DPAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* DPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* DPViewController.m */; };
+		6003F59E195388D20070C39A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* AppDelegate.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -24,6 +23,35 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		CE538B161E7FF81D00E99396 /* AppConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = CE538AD81E7FF81D00E99396 /* AppConstants.m */; };
+		CE538B171E7FF81D00E99396 /* ColorSettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE538ADC1E7FF81D00E99396 /* ColorSettingsView.m */; };
+		CE538B181E7FF81D00E99396 /* ColorSettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE538ADD1E7FF81D00E99396 /* ColorSettingsView.xib */; };
+		CE538B191E7FF81D00E99396 /* ColorSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CE538AE11E7FF81D00E99396 /* ColorSlider.m */; };
+		CE538B1A1E7FF81D00E99396 /* GeneralSettingsSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CE538AE41E7FF81D00E99396 /* GeneralSettingsSlider.m */; };
+		CE538B1B1E7FF81D00E99396 /* ColorSliderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE538AE81E7FF81D00E99396 /* ColorSliderTableViewCell.m */; };
+		CE538B1C1E7FF81D00E99396 /* ColorSliderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE538AE91E7FF81D00E99396 /* ColorSliderTableViewCell.xib */; };
+		CE538B1D1E7FF81D00E99396 /* EqualizerTypeListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE538AEC1E7FF81D00E99396 /* EqualizerTypeListTableViewCell.m */; };
+		CE538B1E1E7FF81D00E99396 /* EqualizerTypeListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE538AED1E7FF81D00E99396 /* EqualizerTypeListTableViewCell.xib */; };
+		CE538B1F1E7FF81D00E99396 /* GeneralSliderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE538AF01E7FF81D00E99396 /* GeneralSliderTableViewCell.m */; };
+		CE538B201E7FF81D00E99396 /* GeneralSliderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE538AF11E7FF81D00E99396 /* GeneralSliderTableViewCell.xib */; };
+		CE538B211E7FF81D00E99396 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE538AF41E7FF81D00E99396 /* MainTableViewCell.m */; };
+		CE538B221E7FF81D00E99396 /* ColorSettingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE538AF81E7FF81D00E99396 /* ColorSettingsTableViewCell.m */; };
+		CE538B231E7FF81D00E99396 /* ColorSettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE538AF91E7FF81D00E99396 /* ColorSettingsTableViewCell.xib */; };
+		CE538B241E7FF81D00E99396 /* SettingsMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE538AFC1E7FF81D00E99396 /* SettingsMenuTableViewCell.m */; };
+		CE538B251E7FF81D00E99396 /* SettingsMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE538AFD1E7FF81D00E99396 /* SettingsMenuTableViewCell.xib */; };
+		CE538B261E7FF81D00E99396 /* GeneralSettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE538B001E7FF81D00E99396 /* GeneralSettingsView.m */; };
+		CE538B271E7FF81D00E99396 /* GeneralSettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE538B011E7FF81D00E99396 /* GeneralSettingsView.xib */; };
+		CE538B281E7FF81D00E99396 /* SettingsMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE538B041E7FF81D00E99396 /* SettingsMenuView.m */; };
+		CE538B291E7FF81D00E99396 /* SettingsMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE538B051E7FF81D00E99396 /* SettingsMenuView.xib */; };
+		CE538B2A1E7FF81D00E99396 /* ColorItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE538B081E7FF81D00E99396 /* ColorItem.m */; };
+		CE538B2B1E7FF81D00E99396 /* Equalizer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE538B0A1E7FF81D00E99396 /* Equalizer.m */; };
+		CE538B2C1E7FF81D00E99396 /* GeneralSettingsMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE538B0C1E7FF81D00E99396 /* GeneralSettingsMenuItem.m */; };
+		CE538B2D1E7FF81D00E99396 /* SettingsMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE538B0E1E7FF81D00E99396 /* SettingsMenuItem.m */; };
+		CE538B2E1E7FF81D00E99396 /* EqualizerTypeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE538B111E7FF81D00E99396 /* EqualizerTypeListViewController.m */; };
+		CE538B2F1E7FF81D00E99396 /* EqualizerTypeListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE538B121E7FF81D00E99396 /* EqualizerTypeListViewController.xib */; };
+		CE538B301E7FF81D00E99396 /* PlayRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE538B141E7FF81D00E99396 /* PlayRecordViewController.m */; };
+		CE538B311E7FF81D00E99396 /* PlayRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE538B151E7FF81D00E99396 /* PlayRecordViewController.xib */; };
+		CE538B331E7FF95200E99396 /* audio2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE538B321E7FF95200E99396 /* audio2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +66,7 @@
 
 /* Begin PBXFileReference section */
 		0117D6AF5A54DC952C7ED63C /* Pods-DisPlayers-Audio-Visualizers_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisPlayers-Audio-Visualizers_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DisPlayers-Audio-Visualizers_Example/Pods-DisPlayers-Audio-Visualizers_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2B8DD2B9D7CF090208F2A93F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2B8DD2B9D7CF090208F2A93F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2E18952FC7E9BCACC9D7B465 /* Pods_DisPlayers_Audio_Visualizers_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisPlayers_Audio_Visualizers_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E03EEE60621305ACAE1FEB /* Pods-DisPlayers-Audio-Visualizers_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisPlayers-Audio-Visualizers_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DisPlayers-Audio-Visualizers_Example/Pods-DisPlayers-Audio-Visualizers_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DisPlayers-Audio-Visualizers_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DisPlayers-Audio-Visualizers_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,10 +77,8 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* DisPlayers-Audio-Visualizers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DisPlayers-Audio-Visualizers-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* DPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* DPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* DPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* DPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPViewController.m; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* DisPlayers-Audio-Visualizers_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DisPlayers-Audio-Visualizers_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,9 +87,56 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		729C13F8AB9DA6137BAE496D /* DisPlayers-Audio-Visualizers.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "DisPlayers-Audio-Visualizers.podspec"; path = "../DisPlayers-Audio-Visualizers.podspec"; sourceTree = "<group>"; };
+		729C13F8AB9DA6137BAE496D /* DisPlayers-Audio-Visualizers.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "DisPlayers-Audio-Visualizers.podspec"; path = "../DisPlayers-Audio-Visualizers.podspec"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A77D5E572199FC7B4E3EE5A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A77D5E572199FC7B4E3EE5A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CE538AD71E7FF81D00E99396 /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		CE538AD81E7FF81D00E99396 /* AppConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConstants.m; sourceTree = "<group>"; };
+		CE538ADB1E7FF81D00E99396 /* ColorSettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSettingsView.h; sourceTree = "<group>"; };
+		CE538ADC1E7FF81D00E99396 /* ColorSettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSettingsView.m; sourceTree = "<group>"; };
+		CE538ADD1E7FF81D00E99396 /* ColorSettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorSettingsView.xib; sourceTree = "<group>"; };
+		CE538AE01E7FF81D00E99396 /* ColorSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSlider.h; sourceTree = "<group>"; };
+		CE538AE11E7FF81D00E99396 /* ColorSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSlider.m; sourceTree = "<group>"; };
+		CE538AE31E7FF81D00E99396 /* GeneralSettingsSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralSettingsSlider.h; sourceTree = "<group>"; };
+		CE538AE41E7FF81D00E99396 /* GeneralSettingsSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralSettingsSlider.m; sourceTree = "<group>"; };
+		CE538AE71E7FF81D00E99396 /* ColorSliderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSliderTableViewCell.h; sourceTree = "<group>"; };
+		CE538AE81E7FF81D00E99396 /* ColorSliderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSliderTableViewCell.m; sourceTree = "<group>"; };
+		CE538AE91E7FF81D00E99396 /* ColorSliderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorSliderTableViewCell.xib; sourceTree = "<group>"; };
+		CE538AEB1E7FF81D00E99396 /* EqualizerTypeListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EqualizerTypeListTableViewCell.h; sourceTree = "<group>"; };
+		CE538AEC1E7FF81D00E99396 /* EqualizerTypeListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualizerTypeListTableViewCell.m; sourceTree = "<group>"; };
+		CE538AED1E7FF81D00E99396 /* EqualizerTypeListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EqualizerTypeListTableViewCell.xib; sourceTree = "<group>"; };
+		CE538AEF1E7FF81D00E99396 /* GeneralSliderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralSliderTableViewCell.h; sourceTree = "<group>"; };
+		CE538AF01E7FF81D00E99396 /* GeneralSliderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralSliderTableViewCell.m; sourceTree = "<group>"; };
+		CE538AF11E7FF81D00E99396 /* GeneralSliderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralSliderTableViewCell.xib; sourceTree = "<group>"; };
+		CE538AF31E7FF81D00E99396 /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		CE538AF41E7FF81D00E99396 /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		CE538AF71E7FF81D00E99396 /* ColorSettingsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSettingsTableViewCell.h; sourceTree = "<group>"; };
+		CE538AF81E7FF81D00E99396 /* ColorSettingsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSettingsTableViewCell.m; sourceTree = "<group>"; };
+		CE538AF91E7FF81D00E99396 /* ColorSettingsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorSettingsTableViewCell.xib; sourceTree = "<group>"; };
+		CE538AFB1E7FF81D00E99396 /* SettingsMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsMenuTableViewCell.h; sourceTree = "<group>"; };
+		CE538AFC1E7FF81D00E99396 /* SettingsMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsMenuTableViewCell.m; sourceTree = "<group>"; };
+		CE538AFD1E7FF81D00E99396 /* SettingsMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsMenuTableViewCell.xib; sourceTree = "<group>"; };
+		CE538AFF1E7FF81D00E99396 /* GeneralSettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralSettingsView.h; sourceTree = "<group>"; };
+		CE538B001E7FF81D00E99396 /* GeneralSettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralSettingsView.m; sourceTree = "<group>"; };
+		CE538B011E7FF81D00E99396 /* GeneralSettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralSettingsView.xib; sourceTree = "<group>"; };
+		CE538B031E7FF81D00E99396 /* SettingsMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsMenuView.h; sourceTree = "<group>"; };
+		CE538B041E7FF81D00E99396 /* SettingsMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsMenuView.m; sourceTree = "<group>"; };
+		CE538B051E7FF81D00E99396 /* SettingsMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsMenuView.xib; sourceTree = "<group>"; };
+		CE538B071E7FF81D00E99396 /* ColorItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorItem.h; sourceTree = "<group>"; };
+		CE538B081E7FF81D00E99396 /* ColorItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorItem.m; sourceTree = "<group>"; };
+		CE538B091E7FF81D00E99396 /* Equalizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Equalizer.h; sourceTree = "<group>"; };
+		CE538B0A1E7FF81D00E99396 /* Equalizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Equalizer.m; sourceTree = "<group>"; };
+		CE538B0B1E7FF81D00E99396 /* GeneralSettingsMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralSettingsMenuItem.h; sourceTree = "<group>"; };
+		CE538B0C1E7FF81D00E99396 /* GeneralSettingsMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralSettingsMenuItem.m; sourceTree = "<group>"; };
+		CE538B0D1E7FF81D00E99396 /* SettingsMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsMenuItem.h; sourceTree = "<group>"; };
+		CE538B0E1E7FF81D00E99396 /* SettingsMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsMenuItem.m; sourceTree = "<group>"; };
+		CE538B101E7FF81D00E99396 /* EqualizerTypeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EqualizerTypeListViewController.h; sourceTree = "<group>"; };
+		CE538B111E7FF81D00E99396 /* EqualizerTypeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualizerTypeListViewController.m; sourceTree = "<group>"; };
+		CE538B121E7FF81D00E99396 /* EqualizerTypeListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EqualizerTypeListViewController.xib; sourceTree = "<group>"; };
+		CE538B131E7FF81D00E99396 /* PlayRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayRecordViewController.h; sourceTree = "<group>"; };
+		CE538B141E7FF81D00E99396 /* PlayRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayRecordViewController.m; sourceTree = "<group>"; };
+		CE538B151E7FF81D00E99396 /* PlayRecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayRecordViewController.xib; sourceTree = "<group>"; };
+		CE538B321E7FF95200E99396 /* audio2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio2.mp3; sourceTree = "<group>"; };
 		DBC9E79885556604BD58B7ED /* Pods-DisPlayers-Audio-Visualizers_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisPlayers-Audio-Visualizers_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DisPlayers-Audio-Visualizers_Tests/Pods-DisPlayers-Audio-Visualizers_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EE380611E27E770B3DE3D7B0 /* Pods-DisPlayers-Audio-Visualizers_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisPlayers-Audio-Visualizers_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DisPlayers-Audio-Visualizers_Tests/Pods-DisPlayers-Audio-Visualizers_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF502AE5B024BE63A4EC0B95 /* Pods_DisPlayers_Audio_Visualizers_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisPlayers_Audio_Visualizers_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,13 +205,16 @@
 		6003F593195388D20070C39A /* Example for DisPlayers-Audio-Visualizers */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* DPAppDelegate.h */,
-				6003F59D195388D20070C39A /* DPAppDelegate.m */,
+				CE538AD61E7FF81D00E99396 /* Constants */,
+				CE538AD91E7FF81D00E99396 /* CustomViews */,
+				CE538B061E7FF81D00E99396 /* Models */,
+				CE538B0F1E7FF81D00E99396 /* ViewControllers */,
+				6003F59C195388D20070C39A /* AppDelegate.h */,
+				6003F59D195388D20070C39A /* AppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* DPViewController.h */,
-				6003F5A6195388D20070C39A /* DPViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				CE538B321E7FF95200E99396 /* audio2.mp3 */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for DisPlayers-Audio-Visualizers";
@@ -194,6 +270,192 @@
 				DBC9E79885556604BD58B7ED /* Pods-DisPlayers-Audio-Visualizers_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE538AD61E7FF81D00E99396 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CE538AD71E7FF81D00E99396 /* AppConstants.h */,
+				CE538AD81E7FF81D00E99396 /* AppConstants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CE538AD91E7FF81D00E99396 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				CE538ADA1E7FF81D00E99396 /* ColorSettingsView */,
+				CE538ADE1E7FF81D00E99396 /* CustomSliderView */,
+				CE538AE51E7FF81D00E99396 /* CustomTableViewCells */,
+				CE538AFE1E7FF81D00E99396 /* GeneralSettingsView */,
+				CE538B021E7FF81D00E99396 /* SettingsMenuView */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		CE538ADA1E7FF81D00E99396 /* ColorSettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				CE538ADB1E7FF81D00E99396 /* ColorSettingsView.h */,
+				CE538ADC1E7FF81D00E99396 /* ColorSettingsView.m */,
+				CE538ADD1E7FF81D00E99396 /* ColorSettingsView.xib */,
+			);
+			path = ColorSettingsView;
+			sourceTree = "<group>";
+		};
+		CE538ADE1E7FF81D00E99396 /* CustomSliderView */ = {
+			isa = PBXGroup;
+			children = (
+				CE538ADF1E7FF81D00E99396 /* ColorSlider */,
+				CE538AE21E7FF81D00E99396 /* GeneralSettingsSlider */,
+			);
+			path = CustomSliderView;
+			sourceTree = "<group>";
+		};
+		CE538ADF1E7FF81D00E99396 /* ColorSlider */ = {
+			isa = PBXGroup;
+			children = (
+				CE538AE01E7FF81D00E99396 /* ColorSlider.h */,
+				CE538AE11E7FF81D00E99396 /* ColorSlider.m */,
+			);
+			path = ColorSlider;
+			sourceTree = "<group>";
+		};
+		CE538AE21E7FF81D00E99396 /* GeneralSettingsSlider */ = {
+			isa = PBXGroup;
+			children = (
+				CE538AE31E7FF81D00E99396 /* GeneralSettingsSlider.h */,
+				CE538AE41E7FF81D00E99396 /* GeneralSettingsSlider.m */,
+			);
+			path = GeneralSettingsSlider;
+			sourceTree = "<group>";
+		};
+		CE538AE51E7FF81D00E99396 /* CustomTableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				CE538AE61E7FF81D00E99396 /* ColorSliderTableViewCell */,
+				CE538AEA1E7FF81D00E99396 /* EqualizerTypeListTableViewCell */,
+				CE538AEE1E7FF81D00E99396 /* GeneralSliderTableViewCell */,
+				CE538AF21E7FF81D00E99396 /* MainTableViewCell */,
+				CE538AF51E7FF81D00E99396 /* SettingsMenuTableViewCells */,
+			);
+			path = CustomTableViewCells;
+			sourceTree = "<group>";
+		};
+		CE538AE61E7FF81D00E99396 /* ColorSliderTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE538AE71E7FF81D00E99396 /* ColorSliderTableViewCell.h */,
+				CE538AE81E7FF81D00E99396 /* ColorSliderTableViewCell.m */,
+				CE538AE91E7FF81D00E99396 /* ColorSliderTableViewCell.xib */,
+			);
+			path = ColorSliderTableViewCell;
+			sourceTree = "<group>";
+		};
+		CE538AEA1E7FF81D00E99396 /* EqualizerTypeListTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE538AEB1E7FF81D00E99396 /* EqualizerTypeListTableViewCell.h */,
+				CE538AEC1E7FF81D00E99396 /* EqualizerTypeListTableViewCell.m */,
+				CE538AED1E7FF81D00E99396 /* EqualizerTypeListTableViewCell.xib */,
+			);
+			path = EqualizerTypeListTableViewCell;
+			sourceTree = "<group>";
+		};
+		CE538AEE1E7FF81D00E99396 /* GeneralSliderTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE538AEF1E7FF81D00E99396 /* GeneralSliderTableViewCell.h */,
+				CE538AF01E7FF81D00E99396 /* GeneralSliderTableViewCell.m */,
+				CE538AF11E7FF81D00E99396 /* GeneralSliderTableViewCell.xib */,
+			);
+			path = GeneralSliderTableViewCell;
+			sourceTree = "<group>";
+		};
+		CE538AF21E7FF81D00E99396 /* MainTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE538AF31E7FF81D00E99396 /* MainTableViewCell.h */,
+				CE538AF41E7FF81D00E99396 /* MainTableViewCell.m */,
+			);
+			path = MainTableViewCell;
+			sourceTree = "<group>";
+		};
+		CE538AF51E7FF81D00E99396 /* SettingsMenuTableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				CE538AF61E7FF81D00E99396 /* ColorSettingsTableViewCell */,
+				CE538AFA1E7FF81D00E99396 /* SettingsMenuTableViewCell */,
+			);
+			path = SettingsMenuTableViewCells;
+			sourceTree = "<group>";
+		};
+		CE538AF61E7FF81D00E99396 /* ColorSettingsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE538AF71E7FF81D00E99396 /* ColorSettingsTableViewCell.h */,
+				CE538AF81E7FF81D00E99396 /* ColorSettingsTableViewCell.m */,
+				CE538AF91E7FF81D00E99396 /* ColorSettingsTableViewCell.xib */,
+			);
+			path = ColorSettingsTableViewCell;
+			sourceTree = "<group>";
+		};
+		CE538AFA1E7FF81D00E99396 /* SettingsMenuTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE538AFB1E7FF81D00E99396 /* SettingsMenuTableViewCell.h */,
+				CE538AFC1E7FF81D00E99396 /* SettingsMenuTableViewCell.m */,
+				CE538AFD1E7FF81D00E99396 /* SettingsMenuTableViewCell.xib */,
+			);
+			path = SettingsMenuTableViewCell;
+			sourceTree = "<group>";
+		};
+		CE538AFE1E7FF81D00E99396 /* GeneralSettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				CE538AFF1E7FF81D00E99396 /* GeneralSettingsView.h */,
+				CE538B001E7FF81D00E99396 /* GeneralSettingsView.m */,
+				CE538B011E7FF81D00E99396 /* GeneralSettingsView.xib */,
+			);
+			path = GeneralSettingsView;
+			sourceTree = "<group>";
+		};
+		CE538B021E7FF81D00E99396 /* SettingsMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				CE538B031E7FF81D00E99396 /* SettingsMenuView.h */,
+				CE538B041E7FF81D00E99396 /* SettingsMenuView.m */,
+				CE538B051E7FF81D00E99396 /* SettingsMenuView.xib */,
+			);
+			path = SettingsMenuView;
+			sourceTree = "<group>";
+		};
+		CE538B061E7FF81D00E99396 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE538B071E7FF81D00E99396 /* ColorItem.h */,
+				CE538B081E7FF81D00E99396 /* ColorItem.m */,
+				CE538B091E7FF81D00E99396 /* Equalizer.h */,
+				CE538B0A1E7FF81D00E99396 /* Equalizer.m */,
+				CE538B0B1E7FF81D00E99396 /* GeneralSettingsMenuItem.h */,
+				CE538B0C1E7FF81D00E99396 /* GeneralSettingsMenuItem.m */,
+				CE538B0D1E7FF81D00E99396 /* SettingsMenuItem.h */,
+				CE538B0E1E7FF81D00E99396 /* SettingsMenuItem.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE538B0F1E7FF81D00E99396 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE538B101E7FF81D00E99396 /* EqualizerTypeListViewController.h */,
+				CE538B111E7FF81D00E99396 /* EqualizerTypeListViewController.m */,
+				CE538B121E7FF81D00E99396 /* EqualizerTypeListViewController.xib */,
+				CE538B131E7FF81D00E99396 /* PlayRecordViewController.h */,
+				CE538B141E7FF81D00E99396 /* PlayRecordViewController.m */,
+				CE538B151E7FF81D00E99396 /* PlayRecordViewController.xib */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,10 +541,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE538B1E1E7FF81D00E99396 /* EqualizerTypeListTableViewCell.xib in Resources */,
+				CE538B1C1E7FF81D00E99396 /* ColorSliderTableViewCell.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				CE538B271E7FF81D00E99396 /* GeneralSettingsView.xib in Resources */,
+				CE538B231E7FF81D00E99396 /* ColorSettingsTableViewCell.xib in Resources */,
+				CE538B201E7FF81D00E99396 /* GeneralSliderTableViewCell.xib in Resources */,
+				CE538B181E7FF81D00E99396 /* ColorSettingsView.xib in Resources */,
+				CE538B331E7FF95200E99396 /* audio2.mp3 in Resources */,
+				CE538B2F1E7FF81D00E99396 /* EqualizerTypeListViewController.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				CE538B291E7FF81D00E99396 /* SettingsMenuView.xib in Resources */,
+				CE538B251E7FF81D00E99396 /* SettingsMenuTableViewCell.xib in Resources */,
+				CE538B311E7FF81D00E99396 /* PlayRecordViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,9 +667,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* DPAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* DPViewController.m in Sources */,
+				CE538B171E7FF81D00E99396 /* ColorSettingsView.m in Sources */,
+				CE538B241E7FF81D00E99396 /* SettingsMenuTableViewCell.m in Sources */,
+				CE538B211E7FF81D00E99396 /* MainTableViewCell.m in Sources */,
+				CE538B1F1E7FF81D00E99396 /* GeneralSliderTableViewCell.m in Sources */,
+				CE538B2A1E7FF81D00E99396 /* ColorItem.m in Sources */,
+				6003F59E195388D20070C39A /* AppDelegate.m in Sources */,
+				CE538B2B1E7FF81D00E99396 /* Equalizer.m in Sources */,
+				CE538B1B1E7FF81D00E99396 /* ColorSliderTableViewCell.m in Sources */,
+				CE538B261E7FF81D00E99396 /* GeneralSettingsView.m in Sources */,
+				CE538B301E7FF81D00E99396 /* PlayRecordViewController.m in Sources */,
+				CE538B2C1E7FF81D00E99396 /* GeneralSettingsMenuItem.m in Sources */,
+				CE538B2D1E7FF81D00E99396 /* SettingsMenuItem.m in Sources */,
+				CE538B1A1E7FF81D00E99396 /* GeneralSettingsSlider.m in Sources */,
+				CE538B2E1E7FF81D00E99396 /* EqualizerTypeListViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				CE538B281E7FF81D00E99396 /* SettingsMenuView.m in Sources */,
+				CE538B1D1E7FF81D00E99396 /* EqualizerTypeListTableViewCell.m in Sources */,
+				CE538B191E7FF81D00E99396 /* ColorSlider.m in Sources */,
+				CE538B221E7FF81D00E99396 /* ColorSettingsTableViewCell.m in Sources */,
+				CE538B161E7FF81D00E99396 /* AppConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

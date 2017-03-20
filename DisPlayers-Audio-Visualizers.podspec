@@ -9,23 +9,17 @@
 Pod::Spec.new do |s|
   s.name             = 'DisPlayers-Audio-Visualizers'
   s.version          = '0.1.0'
+  s.platform         = :ios, '8.0'
   s.summary          = 'A short description of DisPlayers-Audio-Visualizers.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/liptugamichael@gmail.com/DisPlayers-Audio-Visualizers'
+  s.homepage         = 'https://github.com/agilie/DisPlayers-Audio-Visualizers'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'liptugamichael@gmail.com' => 'liptugamichael@gmail.com' }
-  s.source           = { :git => 'https://github.com/liptugamichael@gmail.com/DisPlayers-Audio-Visualizers.git', :tag => s.version.to_s }
+  s.author           = { 'Agilie' => 'info@agilie.com' }
+  s.source           = { :git => 'https://github.com/agilie/DisPlayers-Audio-Visualizers.git', :tag => '0.1.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -36,7 +30,8 @@ TODO: Add long description of the pod here.
   #   'DisPlayers-Audio-Visualizers' => ['DisPlayers-Audio-Visualizers/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.public_header_files = 'Pod/Classes/**/*.h'
+    s.frameworks = 'UIKit', 'MapKit', 'AVFoundation', 'Accelerate'
+    s.dependency 'EZAudio', '~> 1.1.4'
+
 end

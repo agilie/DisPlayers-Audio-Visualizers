@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GeneralSliderTableViewCell" id="KGk-i7-Jjw" customClass="GeneralSliderTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="iuJ-9B-7x9" customClass="GeneralSettingsSlider">
+                        <rect key="frame" x="18" y="51" width="284" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="MNq-33-A7t"/>
+                        </constraints>
+                        <color key="minimumTrackTintColor" red="0.43529411764705883" green="0.43137254901960786" blue="0.43137254901960786" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="maximumTrackTintColor" red="0.43529411759999997" green="0.43137254899999999" blue="0.43137254899999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <connections>
+                            <action selector="sliderValueDidChange:" destination="KGk-i7-Jjw" eventType="valueChanged" id="Iy3-PF-uOD"/>
+                        </connections>
+                    </slider>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ec0-N4-pfJ">
+                        <rect key="frame" x="22" y="18" width="178" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="SVR-eE-xZG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                        <color key="textColor" red="0.28627450980392155" green="0.27058823529411763" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OU9-0U-Zhg">
+                        <rect key="frame" x="228" y="18" width="70" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Y4e-LD-tH7"/>
+                            <constraint firstAttribute="width" constant="70" id="zKq-OG-0cu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                        <color key="textColor" red="0.28627450980392155" green="0.27058823529411763" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="iuJ-9B-7x9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="1LB-Lu-4kD"/>
+                    <constraint firstItem="ec0-N4-pfJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="BON-2n-2LB"/>
+                    <constraint firstAttribute="trailing" secondItem="iuJ-9B-7x9" secondAttribute="trailing" constant="20" id="G7Y-Xf-bwS"/>
+                    <constraint firstItem="OU9-0U-Zhg" firstAttribute="leading" secondItem="ec0-N4-pfJ" secondAttribute="trailing" constant="28" id="RIW-BD-Vli"/>
+                    <constraint firstAttribute="bottom" secondItem="iuJ-9B-7x9" secondAttribute="bottom" constant="4" id="XJt-2w-U5p"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="OU9-0U-Zhg" secondAttribute="trailing" constant="14" id="g5G-16-n8r"/>
+                    <constraint firstItem="OU9-0U-Zhg" firstAttribute="centerY" secondItem="ec0-N4-pfJ" secondAttribute="centerY" id="sGO-Jj-2LG"/>
+                    <constraint firstItem="ec0-N4-pfJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="22" id="x7D-LX-PBE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="propertyNameLabel" destination="ec0-N4-pfJ" id="mNd-bm-OPi"/>
+                <outlet property="propertyValueLabel" destination="OU9-0U-Zhg" id="lMW-Rw-OcZ"/>
+                <outlet property="slider" destination="iuJ-9B-7x9" id="qPe-kq-dvO"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

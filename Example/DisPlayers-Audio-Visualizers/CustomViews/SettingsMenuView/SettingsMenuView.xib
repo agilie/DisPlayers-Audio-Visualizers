@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="SettingsMenuView" id="iN0-l3-epB" customClass="SettingsMenuView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sjl-XO-e1w">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="fnI-Tm-gH4"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="bcY-0B-O8y"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.1450980392" green="0.1450980392" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="sjl-XO-e1w" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Yk7-ea-jML"/>
+                <constraint firstItem="sjl-XO-e1w" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hcA-SF-vJi"/>
+                <constraint firstAttribute="trailing" secondItem="sjl-XO-e1w" secondAttribute="trailing" id="iqz-Px-K5M"/>
+                <constraint firstAttribute="bottom" secondItem="sjl-XO-e1w" secondAttribute="bottom" id="q7Q-GE-UY8"/>
+            </constraints>
+            <connections>
+                <outlet property="menuTableView" destination="sjl-XO-e1w" id="D9b-ZV-ZLI"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="84.5"/>
+        </view>
+    </objects>
+</document>
