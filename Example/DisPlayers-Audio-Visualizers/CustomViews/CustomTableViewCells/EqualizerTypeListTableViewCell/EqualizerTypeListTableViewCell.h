@@ -6,7 +6,6 @@
 //  Copyright © 2017 Agilie. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "MainTableViewCell.h"
 
 @interface EqualizerTypeListTableViewCell : MainTableViewCell

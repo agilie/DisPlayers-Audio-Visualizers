@@ -18,6 +18,8 @@
 
 @property (nonatomic, strong) NSString *cellId;
 
-+ (instancetype) createWithSetiings : (DPEqualizerSettings*) settings type : (SettingsMenuItemType) type cellId : (NSString*) cellId;
++ (instancetype) createWithSetiings : (DPEqualizerSettings*) settings
+                               type : (SettingsMenuItemType) type
+                             cellId : (NSString*) cellId;
 
 @end

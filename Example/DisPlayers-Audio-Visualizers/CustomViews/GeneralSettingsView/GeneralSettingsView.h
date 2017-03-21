@@ -31,6 +31,7 @@
 
 - (void) showWihDuration : (CGFloat) duration;
 
-- (void) closeWithDuration : (CGFloat) duration completion : (void (^)(BOOL finished)) completion;
+- (void) closeWithDuration : (CGFloat) duration
+                completion : (void (^)(BOOL finished)) completion;
 
 @end

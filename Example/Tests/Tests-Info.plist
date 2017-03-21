@@ -18,5 +18,9 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>DisPlayers-Audio-Visualizers required access to microphone</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>DisPlayers-Audio-Visualizers</string>
 </dict>
 </plist>

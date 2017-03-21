@@ -28,10 +28,13 @@
 
 - (CGFloat) height;
 
-- (void) show : (UIViewController*) viewController topPoint : (CGPoint) topPoint duration : (CGFloat) duration;
+- (void) showFromPoint : (CGPoint) topPoint duration : (CGFloat) duration;
 
-- (void) updateColorSettings : (SettingsMenuItemType) type topPoint : (CGPoint) topPoint duration : (CGFloat) duration;
+- (void) updateColorSettings : (SettingsMenuItemType) type
+                    topPoint : (CGPoint) topPoint
+                    duration : (CGFloat) duration;
 
-- (void) closeWithDuration : (CGFloat) duration completion : (void (^)(BOOL finished)) completion;
+- (void) closeWithDuration : (CGFloat) duration
+                completion : (void (^)(BOOL finished)) completion;
 
 @end

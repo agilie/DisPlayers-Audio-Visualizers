@@ -107,7 +107,7 @@
     return _tableViewData;
 }
 
-- (void) show : (UIViewController*) viewController topPoint : (CGPoint) topPoint duration : (CGFloat) duration {
+- (void) showFromPoint : (CGPoint) topPoint duration : (CGFloat) duration {
     [UIView animateWithDuration: duration animations:^{
         self.frame = CGRectMake(0, topPoint.y, SCREEN_WIDTH - [SettingsMenuView size].width, [self height]);
         [self p_setupColorSettingsView];

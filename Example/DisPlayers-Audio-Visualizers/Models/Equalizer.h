@@ -15,6 +15,7 @@
 @property (nonatomic, assign) DPEqualizerType type;
 @property (nonatomic, assign) NSString *name;
 
-+ (instancetype) createWithType : (DPEqualizerType) type name : (NSString*) name;
++ (instancetype) createWithType : (DPEqualizerType) type
+                           name : (NSString*) name;
 
 @end
