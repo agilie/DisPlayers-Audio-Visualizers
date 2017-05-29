@@ -144,8 +144,12 @@ You will need LLVM 3.0 or later in order to build “DisPlayer”
 
 ## Author
 
-This library is open-sourced by [Agilie Team](https://www.agilie.com)
+This library is open-sourced by  [Agilie Team](https://www.agilie.com) <info@agilie.com>
+
+## Contributors
+
+[Michael Liptuga](https://github.com/Liptuga-Michael) - <michael.liptuga@agilie.com>
 
 ## License
 
-The MIT License (MIT) Copyright © 2017 [Agilie Team](https://www.agilie.com) 
+The [MIT](LICENSE.MD) License (MIT) Copyright © 2017 [Agilie Team](https://www.agilie.com)
