@@ -150,6 +150,12 @@ This library is open-sourced by  [Agilie Team](https://www.agilie.com) <info@agi
 
 [Michael Liptuga](https://github.com/Liptuga-Michael) - <michael.liptuga@agilie.com>
 
+
+## Contact us
+
+<ios@agilie.com>
+
+
 ## License
 
 The [MIT](LICENSE.MD) License (MIT) Copyright © 2017 [Agilie Team](https://www.agilie.com)
