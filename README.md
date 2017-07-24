@@ -1,6 +1,6 @@
 # DisPlayers-Audio-Visualizers
 
-[![CI Status](http://img.shields.io/travis/liptugamichael@gmail.com/DisPlayers-Audio-Visualizers.svg?style=flat)](https://travis-ci.org/liptugamichael@gmail.com/DisPlayers-Audio-Visualizers)
+[![CI Status](http://img.shields.io/travis/agilie/DisPlayers-Audio-Visualizers.svg?style=flat)](https://travis-ci.org/liptugamichael@gmail.com/DisPlayers-Audio-Visualizers)
 [![Version](https://img.shields.io/cocoapods/v/DisPlayers-Audio-Visualizers.svg?style=flat)](http://cocoapods.org/pods/DisPlayers-Audio-Visualizers)
 [![License](https://img.shields.io/cocoapods/l/DisPlayers-Audio-Visualizers.svg?style=flat)](http://cocoapods.org/pods/DisPlayers-Audio-Visualizers)
 [![Platform](https://img.shields.io/cocoapods/p/DisPlayers-Audio-Visualizers.svg?style=flat)](http://cocoapods.org/pods/DisPlayers-Audio-Visualizers)
