@@ -1,9 +1,35 @@
-# DisPlayers-Audio-Visualizers
+<p align="center">
 
-[![CI Status](http://img.shields.io/travis/agilie/DisPlayers-Audio-Visualizers.svg?style=flat)](https://travis-ci.org/liptugamichael@gmail.com/DisPlayers-Audio-Visualizers)
-[![Version](https://img.shields.io/cocoapods/v/DisPlayers-Audio-Visualizers.svg?style=flat)](http://cocoapods.org/pods/DisPlayers-Audio-Visualizers)
-[![License](https://img.shields.io/cocoapods/l/DisPlayers-Audio-Visualizers.svg?style=flat)](http://cocoapods.org/pods/DisPlayers-Audio-Visualizers)
-[![Platform](https://img.shields.io/cocoapods/p/DisPlayers-Audio-Visualizers.svg?style=flat)](http://cocoapods.org/pods/DisPlayers-Audio-Visualizers)
+<img src="https://user-images.githubusercontent.com/4165054/28526805-510712c8-7091-11e7-8a7d-41753d760042.png" alt="DisPlayers-Audio-Visualizers" title="DisPlayers-Audio-Visualizers" width="557"/>
+</p>
+
+  <p>
+
+</p>
+
+<p align="center">
+
+<a href="https://www.agilie.com?utm_source=github&utm_medium=referral&utm_campaign=Git_Swift&utm_term=DisPlayers-Audio-Visualizers">
+<img src="https://img.shields.io/badge/Made%20by-Agilie-green.svg?style=flat" alt="Made by Agilie">
+</a>
+
+<a href="https://travis-ci.org/liptugamichael@gmail.com/DisPlayers-Audio-Visualizers">
+<img src="http://img.shields.io/travis/agilie/DisPlayers-Audio-Visualizers.svg?style=flat" alt="CI Status">
+</a>
+
+<a href="http://cocoapods.org/pods/DisPlayers-Audio-Visualizers">
+<img src="https://img.shields.io/cocoapods/v/DisPlayers-Audio-Visualizers.svg?style=flat" alt="Version">
+</a>
+
+<a href="http://cocoapods.org/pods/DisPlayers-Audio-Visualizers">
+<img src="https://img.shields.io/cocoapods/l/DisPlayers-Audio-Visualizers.svg?style=flat" alt="License">
+</a>
+
+<a href="http://cocoapods.org/pods/DisPlayers-Audio-Visualizers">
+<img src="https://img.shields.io/cocoapods/p/DisPlayers-Audio-Visualizers.svg?style=flat" alt="Platform">
+</a>
+
+</p>
 
 # DisPlayers-Audio-Visualizers
 DisPlayer is a customizable audio visualization component that works with recording and playing back audio files
@@ -144,7 +170,7 @@ You will need LLVM 3.0 or later in order to build “DisPlayer”
 
 ## Author
 
-This library is open-sourced by  [Agilie Team](https://www.agilie.com) <info@agilie.com>
+This library is open-sourced by  [Agilie Team](https://www.agilie.com?utm_source=github&utm_medium=referral&utm_campaign=Git_Swift&utm_term=DisPlayers-Audio-Visualizers) <info@agilie.com>
 
 ## Contributors
 
@@ -158,4 +184,4 @@ This library is open-sourced by  [Agilie Team](https://www.agilie.com) <info@agi
 
 ## License
 
-The [MIT](LICENSE.MD) License (MIT) Copyright © 2017 [Agilie Team](https://www.agilie.com)
+The [MIT](LICENSE.MD) License (MIT) Copyright © 2017 [Agilie Team](https://www.agilie.com?utm_source=github&utm_medium=referral&utm_campaign=Git_Swift&utm_term=DisPlayers-Audio-Visualizers)
