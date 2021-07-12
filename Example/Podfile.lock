@@ -1,0 +1,31 @@
+PODS:
+  - DisPlayers-Audio-Visualizers (0.1.1):
+    - EZAudio (~> 1.1.4)
+  - EZAudio (1.1.5):
+    - EZAudio/Full (= 1.1.5)
+  - EZAudio/Core (1.1.5)
+  - EZAudio/Full (1.1.5):
+    - EZAudio/Core
+    - TPCircularBuffer (= 1.1)
+  - TPCircularBuffer (1.1)
+
+DEPENDENCIES:
+  - DisPlayers-Audio-Visualizers (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - EZAudio
+    - TPCircularBuffer
+
+EXTERNAL SOURCES:
+  DisPlayers-Audio-Visualizers:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DisPlayers-Audio-Visualizers: 70a034a7d1bb3f93632315bcc1546670b373b3be
+  EZAudio: 3b1cb4b6d7ebca68f0c2478576d75940aad4aa99
+  TPCircularBuffer: 4960a919e667280f7f38963d771f45871b64fe62
+
+PODFILE CHECKSUM: 04935ebc46d66ef6773ac53ec8069e6de67f0679
+
+COCOAPODS: 1.10.1

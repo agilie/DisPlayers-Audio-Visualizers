@@ -1,0 +1,6 @@
+framework module EZAudio {
+  umbrella header "EZAudio-umbrella.h"
+
+  export *
+  module * { export * }
+}

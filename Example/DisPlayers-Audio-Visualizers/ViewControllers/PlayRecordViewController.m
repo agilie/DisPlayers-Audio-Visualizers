@@ -111,10 +111,12 @@
      hasBufferList:(AudioBufferList *)bufferList
     withBufferSize:(UInt32)bufferSize
 withNumberOfChannels:(UInt32)numberOfChannels {
-    if (self.recordButton.selected) {
-        [self.recorder appendDataFromBufferList:bufferList
-                                 withBufferSize:bufferSize];
-    }
+    dispatch_async(dispatch_get_main_queue(), ^{
+        if (self.recordButton.selected) {
+            [self.recorder appendDataFromBufferList:bufferList
+                                     withBufferSize:bufferSize];
+        }
+    });
 }
 
 

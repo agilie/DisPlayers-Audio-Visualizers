@@ -1,0 +1,6 @@
+framework module DisPlayers_Audio_Visualizers {
+  umbrella header "DisPlayers-Audio-Visualizers-umbrella.h"
+
+  export *
+  module * { export * }
+}

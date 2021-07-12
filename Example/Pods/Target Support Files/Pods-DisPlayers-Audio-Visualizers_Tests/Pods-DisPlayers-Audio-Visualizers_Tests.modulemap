@@ -1,0 +1,6 @@
+framework module Pods_DisPlayers_Audio_Visualizers_Tests {
+  umbrella header "Pods-DisPlayers-Audio-Visualizers_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
